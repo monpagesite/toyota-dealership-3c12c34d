@@ -247,49 +247,102 @@ export const siteContent = {
       notesPlaceholder: 'Any specific questions or requests?',
       submitButton: 'Confirm test drive',
     },
+    benefits: [
+      {
+        icon: 'CheckCircle2',
+        title: 'Instant confirmation',
+        description: "We'll confirm your appointment within 2 hours via email and text",
+      },
+      {
+        icon: 'CheckCircle2',
+        title: 'Flexible scheduling',
+        description: 'Choose any time that works for your schedule, including evenings and weekends',
+      },
+      {
+        icon: 'CheckCircle2',
+        title: 'No commitment',
+        description: 'Free test drive with no obligation to purchase. Cancel anytime.',
+      },
+    ],
   },
 
   contactLocation: {
     overline: 'Visit Us',
-    headline: 'Your local Toyota dealership',
-    subtext: 'Stop by, call, or send us a message',
+    headline: 'Stop by or get in touch',
+    subtext: 'Our team is ready to help you find your perfect Toyota',
     dealership: {
       name: 'Toyota Dealership',
-      address: '123 Auto Plaza Drive',
-      city: 'Your City, ST 12345',
+      address: {
+        street: '123 Main Street',
+        city: 'Anytown',
+        state: 'CA',
+        zip: '12345',
+      },
       phone: '(555) 123-4567',
       email: 'info@toyotadealership.com',
+      hours: [
+        { day: 'Monday - Friday', time: '9:00 AM - 8:00 PM' },
+        { day: 'Saturday', time: '9:00 AM - 6:00 PM' },
+        { day: 'Sunday', time: '10:00 AM - 5:00 PM' },
+      ],
     },
-    hours: [
-      { day: 'Monday - Friday', time: '9:00 AM - 8:00 PM' },
-      { day: 'Saturday', time: '9:00 AM - 6:00 PM' },
-      { day: 'Sunday', time: '11:00 AM - 5:00 PM' },
-    ],
     whatsapp: {
-      number: '5551234567',
-      text: 'Text us on WhatsApp',
+      number: '15551234567',
+      text: 'Chat with us on WhatsApp',
     },
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9476519598093!2d-73.99185368459395!3d40.74117797932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus',
+    map: {
+      embedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1352!2d-74.0059728!3d40.7127753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjEuNSJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus',
+    },
   },
 
   footer: {
-    tagline: 'Your trusted Toyota partner',
-    links: [
-      { label: 'About Us', href: '#about' },
-      { label: 'Inventory', href: '#inventory' },
-      { label: 'Financing', href: '#financing' },
-      { label: 'Service & Parts', href: '#service' },
-      { label: 'Trade-In', href: '#trade-in' },
-      { label: 'Contact', href: '#contact' },
-    ],
+    tagline: 'Your trusted Toyota dealership serving the community with quality vehicles and exceptional service since 1985.',
     social: [
-      { platform: 'Facebook', url: 'https://facebook.com' },
-      { platform: 'Instagram', url: 'https://instagram.com' },
-      { platform: 'Twitter', url: 'https://twitter.com' },
+      {
+        platform: 'Facebook',
+        icon: 'Facebook',
+        url: 'https://facebook.com',
+      },
+      {
+        platform: 'Instagram',
+        icon: 'Instagram',
+        url: 'https://instagram.com',
+      },
+      {
+        platform: 'Twitter',
+        icon: 'Twitter',
+        url: 'https://twitter.com',
+      },
+      {
+        platform: 'Youtube',
+        icon: 'Youtube',
+        url: 'https://youtube.com',
+      },
     ],
+    links: {
+      company: [
+        { label: 'About Us', href: '#about' },
+        { label: 'Our Team', href: '#team' },
+        { label: 'Careers', href: '#careers' },
+        { label: 'Contact', href: '#contact' },
+      ],
+      services: [
+        { label: 'New Vehicles', href: '#new' },
+        { label: 'Pre-Owned', href: '#preowned' },
+        { label: 'Service & Parts', href: '#service' },
+        { label: 'Financing', href: '#financing' },
+      ],
+      resources: [
+        { label: 'Schedule Service', href: '#schedule' },
+        { label: 'Trade-In Value', href: '#trade-in' },
+        { label: 'Specials & Offers', href: '#specials' },
+        { label: 'Reviews', href: '#reviews' },
+      ],
+    },
     legal: [
       { label: 'Privacy Policy', href: '#privacy' },
       { label: 'Terms of Service', href: '#terms' },
+      { label: 'Accessibility', href: '#accessibility' },
     ],
     copyright: '© 2024 Toyota Dealership. All rights reserved.',
   },
