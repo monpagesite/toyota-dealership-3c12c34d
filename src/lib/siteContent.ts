@@ -247,28 +247,28 @@ export const siteContent = {
       notesPlaceholder: 'Any specific questions or requests?',
       submitButton: 'Confirm test drive',
     },
-    benefits: [
+    features: [
       {
-        icon: 'CheckCircle2',
-        title: 'Instant confirmation',
-        description: "We'll confirm your appointment within 2 hours via email and text",
-      },
-      {
-        icon: 'CheckCircle2',
-        title: 'Flexible scheduling',
-        description: 'Choose any time that works for your schedule, including evenings and weekends',
+        icon: 'Clock',
+        title: 'Quick scheduling',
+        description: 'Book in 60 seconds',
       },
       {
         icon: 'CheckCircle2',
         title: 'No commitment',
-        description: 'Free test drive with no obligation to purchase. Cancel anytime.',
+        description: 'Pressure-free experience',
+      },
+      {
+        icon: 'Shield',
+        title: 'Safe & secure',
+        description: 'Your data protected',
       },
     ],
   },
 
   contactLocation: {
     overline: 'Visit Us',
-    headline: 'Stop by or get in touch',
+    headline: 'Come see us in person',
     subtext: 'Our team is ready to help you find your perfect Toyota',
     dealership: {
       name: 'Toyota Dealership',
@@ -279,7 +279,7 @@ export const siteContent = {
         zip: '12345',
       },
       phone: '(555) 123-4567',
-      email: 'info@toyotadealership.com',
+      email: 'sales@toyotadealership.com',
       hours: [
         { day: 'Monday - Friday', time: '9:00 AM - 8:00 PM' },
         { day: 'Saturday', time: '9:00 AM - 6:00 PM' },
@@ -287,63 +287,47 @@ export const siteContent = {
       ],
     },
     whatsapp: {
-      number: '15551234567',
+      number: '5551234567',
       text: 'Chat with us on WhatsApp',
     },
     map: {
-      embedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1352!2d-74.0059728!3d40.7127753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjEuNSJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus',
+      embedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086345429382!2d-122.41941548468197!3d37.77492977975903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus',
     },
   },
 
   footer: {
-    tagline: 'Your trusted Toyota dealership serving the community with quality vehicles and exceptional service since 1985.',
+    tagline: 'Your trusted local Toyota dealership. Experience the difference with transparent pricing, expert service, and a commitment to finding your perfect vehicle.',
     social: [
-      {
-        platform: 'Facebook',
-        icon: 'Facebook',
-        url: 'https://facebook.com',
-      },
-      {
-        platform: 'Instagram',
-        icon: 'Instagram',
-        url: 'https://instagram.com',
-      },
-      {
-        platform: 'Twitter',
-        icon: 'Twitter',
-        url: 'https://twitter.com',
-      },
-      {
-        platform: 'Youtube',
-        icon: 'Youtube',
-        url: 'https://youtube.com',
-      },
+      { platform: 'Facebook', icon: 'Facebook', url: 'https://facebook.com' },
+      { platform: 'Instagram', icon: 'Instagram', url: 'https://instagram.com' },
+      { platform: 'Twitter', icon: 'Twitter', url: 'https://twitter.com' },
+      { platform: 'Youtube', icon: 'Youtube', url: 'https://youtube.com' },
     ],
     links: {
       company: [
         { label: 'About Us', href: '#about' },
-        { label: 'Our Team', href: '#team' },
         { label: 'Careers', href: '#careers' },
         { label: 'Contact', href: '#contact' },
+        { label: 'Blog', href: '#blog' },
       ],
       services: [
         { label: 'New Vehicles', href: '#new' },
-        { label: 'Pre-Owned', href: '#preowned' },
+        { label: 'Pre-Owned', href: '#pre-owned' },
         { label: 'Service & Parts', href: '#service' },
         { label: 'Financing', href: '#financing' },
       ],
       resources: [
-        { label: 'Schedule Service', href: '#schedule' },
+        { label: 'FAQ', href: '#faq' },
+        { label: 'Testimonials', href: '#testimonials' },
         { label: 'Trade-In Value', href: '#trade-in' },
-        { label: 'Specials & Offers', href: '#specials' },
-        { label: 'Reviews', href: '#reviews' },
+        { label: 'Warranties', href: '#warranties' },
       ],
     },
+    copyright: '© 2024 Toyota Dealership. All rights reserved.',
     legal: [
       { label: 'Privacy Policy', href: '#privacy' },
       { label: 'Terms of Service', href: '#terms' },
       { label: 'Accessibility', href: '#accessibility' },
     ],
-    copyright: '© 2024 Toyota Dealership. All rights reserved.',
   },
 };
